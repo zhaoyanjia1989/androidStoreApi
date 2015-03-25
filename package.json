@@ -1,0 +1,23 @@
+{
+  "name": "androidStoreApi",
+  "version": "1.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "~4.8.6",
+    "body-parser": "~1.6.6",
+    "cookie-parser": "~1.3.2",
+    "morgan": "~1.2.3",
+    "serve-favicon": "~2.0.1",
+    "debug": "~1.0.4",
+    "ejs": "~0.8.5",
+    "mysql": "~2.4.3",
+    "express-myconnection": "~1.0.4",
+    "log4j":"~0.6.21",
+    "segment":"~0.0.5",
+    "supertest":"~0.15.0"
+  },
+  "scripts": {
+    "start": "node ./bin/androidStoreApi",
+    "test":"mocha test/unit/"
+  }
+}

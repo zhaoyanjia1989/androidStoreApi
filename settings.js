@@ -1,0 +1,18 @@
+module.exports = {
+	//host: '183.60.255.65', 
+    //user: 'store_update',
+    //password : 'update@$!##',
+    host:'localhost',
+    user:'root',
+    password:'root',
+    port : 3306, 
+    database :'zqgame_store',
+    secretkey : 'my0q7f4rqm9k4ib1wfrsakf4',
+    urlTemplate :':param/:system/:deviceId/:versionCode/:mac/:ip/:adv/:timestamp/:sign',
+    IMAGE_HOST : 'http://androiddownload.zqgame.com',
+    APK_HOST : 'http://androiddownload.zqgame.com',
+    istimevalid : false,
+    issignvalid : false,
+    filterMac:['978800ABE87961B39723E594FF70B8C788F5F9B6','FD662D74C4219E82501A565D505BE5FEF0BB8B89','A0887C24DF56D34D3A69D4FCC0AC949D12A91EB4'],
+    filterIp:[],
+};
