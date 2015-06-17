@@ -1,7 +1,4 @@
 module.exports = {
-	//host: '183.60.255.65', 
-    //user: 'store_update',
-    //password : 'update@$!##',
     host:'localhost',
     user:'root',
     password:'root',
